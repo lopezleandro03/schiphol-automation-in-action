@@ -16,7 +16,7 @@ import PlatformSolutionSlide from './src/slides/PlatformSolutionSlide.jsx'
 import BreakoutSessionsSlide from './src/slides/BreakoutSessionsSlide.jsx'
 import TwoFuturesSlide from './src/slides/TwoFuturesSlide.jsx'
 import AppendixDividerSlide from './src/slides/AppendixDividerSlide.jsx'
-import { GenericThankYouSlide as ThankYouSlide } from '@deckio/deck-engine'
+import ThankYouSlide from './src/slides/ThankYouSlide.jsx'
 
 export default {
   id: 'schiphol-automation-in-action',
