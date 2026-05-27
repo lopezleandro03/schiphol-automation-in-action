@@ -15,8 +15,8 @@ export default function ThankYouSlide({ index }) {
         <div key={i} className={`deck-ty-streak deck-ty-streak${i}`} />
       ))}
 
-      <div className="deck-ty-shell content-frame content-gutter">
-        <div className="deck-ty-content">
+      <div className={`deck-ty-shell content-frame content-gutter ${styles.shell}`}>
+        <div className={`deck-ty-content ${styles.content}`}>
           <Editable as="h2" id="thankYou.title" className="deck-ty-title">Thank You</Editable>
           <Editable as="p" id="thankYou.subtitle" className="deck-ty-subtitle">
             {"Let's build something great — together."}

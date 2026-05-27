@@ -1,3 +1,14 @@
+.shell {
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .logos {
   display: flex;
   align-items: center;
@@ -7,7 +18,7 @@
 }
 
 .logo {
-  height: 48px;
+  height: 80px;
   width: auto;
   opacity: 0.85;
   transition: opacity 0.2s ease;
