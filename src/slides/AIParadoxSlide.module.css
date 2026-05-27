@@ -1,0 +1,161 @@
+.slide {
+  background: var(--bg-deep);
+  flex-direction: column;
+  padding: 0 0 44px 0;
+}
+
+.orb1 {
+  width: 500px; height: 500px;
+  top: -140px; right: -100px;
+  background: radial-gradient(circle at 50% 50%, var(--orange), color-mix(in srgb, var(--orange) 18%, transparent) 50%, transparent 70%);
+}
+
+.orb2 {
+  width: 380px; height: 380px;
+  bottom: -80px; left: -60px;
+  background: radial-gradient(circle at 50% 50%, var(--purple), color-mix(in srgb, var(--purple) 18%, transparent) 55%, transparent 75%);
+}
+
+.body {
+  position: relative; z-index: 10;
+  display: flex; flex-direction: column;
+  justify-content: center; flex: 1; min-height: 0;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin: 0;
+}
+
+.title {
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  color: var(--text);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 600px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.heroStat {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 32px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--orange) 8%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--orange) 25%, var(--border));
+  text-align: center;
+  min-width: 160px;
+}
+
+.heroValue {
+  font-size: clamp(36px, 5vw, 56px);
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: var(--orange);
+}
+
+.heroLabel {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--text-muted);
+  margin-top: 8px;
+  max-width: 140px;
+}
+
+.tensions {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  display: flex;
+  align-items: center;
+}
+
+.tensionList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.tensionItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--surface) 60%, transparent);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.tensionIcon {
+  flex-shrink: 0;
+  font-size: 16px;
+}
+
+.statsGrid {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 16px 12px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  gap: 4px;
+}
+
+.statValue {
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.statLabel {
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--text-muted);
+  font-weight: 500;
+}

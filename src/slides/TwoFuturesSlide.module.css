@@ -1,0 +1,148 @@
+.slide {
+  background: var(--bg-deep);
+  flex-direction: column;
+  padding: 0 0 44px 0;
+}
+
+.orb1 {
+  width: 440px; height: 440px;
+  top: -120px; left: -80px;
+  background: radial-gradient(circle at 40% 40%, var(--pink), color-mix(in srgb, var(--pink) 20%, transparent) 50%, transparent 70%);
+}
+
+.orb2 {
+  width: 400px; height: 400px;
+  bottom: -100px; right: -60px;
+  background: radial-gradient(circle at 50% 50%, var(--green), color-mix(in srgb, var(--green) 20%, transparent) 55%, transparent 75%);
+}
+
+.body {
+  position: relative; z-index: 10;
+  display: flex; flex-direction: column;
+  justify-content: center; flex: 1; min-height: 0;
+  gap: 32px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0;
+}
+
+.title {
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1.15;
+  color: var(--text);
+  margin: 0;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  backdrop-filter: blur(8px);
+}
+
+.chaotic {
+  background: color-mix(in srgb, var(--pink) 6%, var(--surface));
+  border-color: color-mix(in srgb, var(--pink) 20%, var(--border));
+}
+
+.governed {
+  background: color-mix(in srgb, var(--green) 6%, var(--surface));
+  border-color: color-mix(in srgb, var(--green) 20%, var(--border));
+}
+
+.columnHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.columnIcon {
+  font-size: 22px;
+}
+
+.columnTitle {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0;
+}
+
+.chaotic .columnTitle {
+  color: var(--pink);
+}
+
+.governed .columnTitle {
+  color: var(--green);
+}
+
+.columnDesc {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.itemIcon {
+  flex-shrink: 0;
+  font-size: 14px;
+  margin-top: 1px;
+}
+
+.outcome {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.chaotic .outcome {
+  color: var(--pink);
+}
+
+.governed .outcome {
+  color: var(--green);
+}
