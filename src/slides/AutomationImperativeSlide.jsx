@@ -5,7 +5,7 @@ const stats = [
   { id: 'pr-volume', value: '75%', label: 'of code on GitHub is now AI-generated', source: 'Google, 2026' },
   { id: 'deploy-freq', value: '3×', label: 'increase in deployment frequency with agentic workflows', source: 'DORA Report, 2025' },
   { id: 'change-fail', value: '30%', label: 'higher change failure rate without automated guardrails', source: 'Gartner, 2025' },
-  { id: 'self-service', value: '80%', label: 'of platform teams plan self-service portals by 2027', source: 'IDC Survey, 2025' },
+  { id: 'lost-time', value: '7 hrs', label: 'lost per team member per week to inefficient processes', source: 'GitLab Survey, 2025' },
 ]
 
 export default function AutomationImperativeSlide({ index }) {
