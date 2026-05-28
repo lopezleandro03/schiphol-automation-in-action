@@ -5,5 +5,11 @@
       "fontSize": "1.5rem"
     }
   },
-  "aiparadoxdiv.subtitle": "Faster Coding Creates New Bottlenecks"
+  "aiparadoxdiv.subtitle": "Faster Coding Creates New Bottlenecks",
+  "platsol.subtitle": {
+    "style": {
+      "fontSize": "1.125rem"
+    },
+    "value": "The solution isn't less AI — it's better infrastructure, guardrails and automation around it"
+  }
 }

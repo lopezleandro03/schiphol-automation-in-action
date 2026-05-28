@@ -4,7 +4,7 @@ import styles from './PlatformSolutionSlide.module.css'
 const pillars = [
   { id: 'platform', icon: '🏗️', title: 'Platform Engineering', desc: 'Golden paths, self-service infra, and guardrails that scale with your teams' },
   { id: 'automation', icon: '⚙️', title: 'End-to-End Automation', desc: 'CI/CD, testing, compliance, and deployment — automated from commit to production' },
-  { id: 'agentic', icon: '🤖', title: 'Agentic Workflows', desc: 'AI agents that plan, execute, and iterate — not just suggest' },
+  { id: 'agentic', icon: '🤖', title: 'Agentic DevOps Workflows', desc: 'AI agents that manage your infrastructure, pipelines, and operations — not just code' },
 ]
 
 const proofPoints = [
