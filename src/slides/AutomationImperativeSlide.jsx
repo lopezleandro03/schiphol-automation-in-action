@@ -43,6 +43,10 @@ export default function AutomationImperativeSlide({ index }) {
         </EditableList>
       </div>
 
+      <p className={styles.reference}>
+        Reference: <a href="https://devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction/" target="_blank" rel="noopener noreferrer">devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction</a>
+      </p>
+
       <BottomBar text={<Editable as="span" id="autoimp.footer">Schiphol Automation in Action Event</Editable>} />
     </Slide>
   )
