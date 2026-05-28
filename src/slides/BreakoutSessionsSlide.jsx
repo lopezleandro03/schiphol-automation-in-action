@@ -15,7 +15,7 @@ const sessions = [
   {
     id: 'cli',
     number: '02',
-    title: 'GitHub Copilot CLI',
+    title: 'Agentic SDLC',
     speakerName: 'Emile Verbunt',
     speakerRole: 'Software Solution Engineer @ Microsoft',
     photo: emilePhoto,
