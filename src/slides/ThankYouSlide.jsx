@@ -17,7 +17,7 @@ export default function ThankYouSlide({ index }) {
 
       <div className={`deck-ty-shell content-frame content-gutter ${styles.shell}`}>
         <div className={`deck-ty-content ${styles.content}`}>
-          <Editable as="h2" id="thankYou.title" className="deck-ty-title">Thank You</Editable>
+          <h2 className={`deck-ty-title ${styles.title}`}>Thank <span className={styles.highlight}>You</span></h2>
           <Editable as="p" id="thankYou.subtitle" className="deck-ty-subtitle">
             {"Let's build something great — together."}
           </Editable>

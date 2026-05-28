@@ -18,6 +18,17 @@
   animation: none;
 }
 
+.title {
+  color: var(--text);
+}
+
+.highlight {
+  background: linear-gradient(135deg, var(--accent), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .logos {
   display: flex;
   align-items: center;

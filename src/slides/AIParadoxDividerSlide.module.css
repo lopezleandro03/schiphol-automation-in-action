@@ -27,12 +27,19 @@
   min-height: 0;
 }
 
-.body h1 {
+.title {
   font-size: clamp(42px, 5.5vw, 72px);
   font-weight: 800;
   letter-spacing: -2px;
   margin: 0;
   color: var(--text);
+}
+
+.highlight {
+  background: linear-gradient(135deg, var(--purple), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .body p {

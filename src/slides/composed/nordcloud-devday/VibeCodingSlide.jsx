@@ -15,7 +15,8 @@ export default function VibeCodingSlide({ index }) {
         <div className={styles.left}>
           <span className={styles.eyebrow}>Andrej Karpathy · Feb 2025</span>
           <h2 className={styles.title}>
-            "vibe<br />coding"
+            {'"'}vibe<br />
+            <span className={styles.highlight}>coding</span>{'"'}
           </h2>
           <p className={styles.description}>
             A new paradigm where developers fully embrace AI — describing intent in natural language, accepting all suggestions, and iterating without reading the diffs.

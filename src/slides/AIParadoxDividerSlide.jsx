@@ -8,7 +8,7 @@ export default function AIParadoxDividerSlide({ index }) {
       <div className={`orb ${styles.orb1}`} />
       <div className={`orb ${styles.orb2}`} />
       <div className={`${styles.body} content-frame content-gutter`}>
-        <Editable as="h1" id="aiparadoxdiv.title">The AI Paradox</Editable>
+        <h1 className={styles.title}>The AI <span className={styles.highlight}>Paradox</span></h1>
         <Editable as="p" id="aiparadoxdiv.subtitle">Coding is faster than ever — yet teams lose a full workday per week to AI-related inefficiencies</Editable>
       </div>
       <BottomBar text={<Editable as="span" id="aiparadoxdiv.footer">Schiphol Automation in Action Event</Editable>} />
