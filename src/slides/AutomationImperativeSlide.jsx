@@ -2,10 +2,10 @@ import { BottomBar, Editable, EditableList, Slide } from '@deckio/deck-engine'
 import styles from './AutomationImperativeSlide.module.css'
 
 const stats = [
-  { id: 'pr-volume', value: '75%', label: 'of code on GitHub is now AI-generated', source: 'Google, 2026' },
-  { id: 'deploy-freq', value: '3×', label: 'increase in deployment frequency with agentic workflows', source: 'DORA Report, 2025' },
-  { id: 'change-fail', value: '30%', label: 'higher change failure rate without automated guardrails', source: 'Gartner, 2025' },
-  { id: 'lost-time', value: '7 hrs', label: 'lost per team member per week to inefficient processes', source: 'GitLab Survey, 2025' },
+  { id: 'pr-volume', value: '75%', label: 'van de code op GitHub is nu AI-gegenereerd', source: 'Google, 2026' },
+  { id: 'deploy-freq', value: '3×', label: 'toename in deploymentfrequentie met agentische workflows', source: 'DORA Report, 2025' },
+  { id: 'change-fail', value: '30%', label: 'hoger faalpercentage bij wijzigingen zonder geautomatiseerde beveiligingen', source: 'Gartner, 2025' },
+  { id: 'lost-time', value: '7 uur', label: 'verloren per teamlid per week aan inefficiënte processen', source: 'GitLab Survey, 2025' },
 ]
 
 export default function AutomationImperativeSlide({ index }) {
