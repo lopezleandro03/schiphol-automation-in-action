@@ -15,7 +15,7 @@ export default function AgenticDivider({ index, project }) {
           <span className={styles.highlight}>Engineering</span>
         </h1>
         <p className={styles.subtitle}>
-          Give your agents structure, memory, and guardrails.
+          Give your agents context, identity, skills, structure, memory, and guardrails.
         </p>
       </div>
 
