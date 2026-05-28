@@ -28,6 +28,8 @@ export default {
     CoverSlide,
     nordclouddevdayAgenticEvolutionSlide,
     nordclouddevdayVibeCodingSlide,
+    nordclouddevdayAbstractionLadderSlide,
+    nordclouddevdayAbstractionLadderDiagramSlide,
     structuredvibecodingVibeCodingLimits,
     structuredvibecodingAgenticDivider,
     structuredvibecodingSdlcInfographic,
@@ -40,7 +42,5 @@ export default {
     AppendixDividerSlide,
     nordclouddevdayOneESPlatformSlide,
     TwoFuturesSlide,
-    nordclouddevdayAbstractionLadderSlide,
-    nordclouddevdayAbstractionLadderDiagramSlide,
   ],
 }
