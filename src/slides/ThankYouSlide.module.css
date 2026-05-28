@@ -9,6 +9,15 @@
   flex-direction: column;
 }
 
+.content :global(.deck-ty-title) {
+  background: none;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  background-clip: unset;
+  color: var(--text);
+  animation: none;
+}
+
 .logos {
   display: flex;
   align-items: center;
