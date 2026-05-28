@@ -2,7 +2,7 @@ import { BottomBar, Editable, EditableList, Slide } from '@deckio/deck-engine'
 import styles from './AutomationImperativeSlide.module.css'
 
 const stats = [
-  { id: 'pr-volume', value: '41%', label: 'of code on GitHub is now AI-generated', source: 'Microsoft, 2025' },
+  { id: 'pr-volume', value: '75%', label: 'of code on GitHub is now AI-generated', source: 'Google, 2026' },
   { id: 'deploy-freq', value: '3×', label: 'increase in deployment frequency with agentic workflows', source: 'DORA Report, 2025' },
   { id: 'change-fail', value: '30%', label: 'higher change failure rate without automated guardrails', source: 'Gartner, 2025' },
   { id: 'self-service', value: '80%', label: 'of platform teams plan self-service portals by 2027', source: 'IDC Survey, 2025' },
@@ -44,7 +44,7 @@ export default function AutomationImperativeSlide({ index }) {
       </div>
 
       <p className={styles.reference}>
-        Reference: <a href="https://devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction/" target="_blank" rel="noopener noreferrer">devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction</a>
+        References: <a href="https://devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction/" target="_blank" rel="noopener noreferrer">devblogs.microsoft.com/all-things-azure/agentic-devops-practices-principles-strategic-direction</a> | <a href="https://www.fastcompany.com/91531519/google-ceo-says-75-of-the-companys-code-is-ai-generated" target="_blank" rel="noopener noreferrer">fastcompany.com/91531519/google-ceo-says-75-of-the-companys-code-is-ai-generated</a>
       </p>
 
       <BottomBar text={<Editable as="span" id="autoimp.footer">Schiphol Automation in Action Event</Editable>} />
